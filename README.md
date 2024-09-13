@@ -5,7 +5,6 @@ Ocazion is a fully responsive ecommerce website template, responsive for all dev
 <br />
 <a href="https://ocazion.rf.gd"><strong>➥ Live Demo</strong></a>
 <br />
-<br />
 </div>
 
 ## Demo
