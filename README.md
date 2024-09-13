@@ -7,7 +7,7 @@ Ocazion is a fully responsive ecommerce website template, responsive for all dev
 
 ## Demo
 
-![Ocazion Desktop Demo](./website-demo-image/Ocazion.png "Desktop Demo")
+![Ocazion Desktop Demo](./website-demo-image/ocazion.png "Desktop Demo")
 
 ## programming language and tools
 
@@ -21,7 +21,7 @@ Ocazion is a fully responsive ecommerce website template, responsive for all dev
 
 Before you begin, ensure you have met the following requirements:
 
-* [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
+- [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
 
 ## Installing Ocazion
 
