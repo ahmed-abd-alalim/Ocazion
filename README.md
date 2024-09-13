@@ -31,6 +31,9 @@ Windows:
 
 ```bash
 git clone https://github.com/AhmedAbdAlalim-3A/Ocazion.git
+cd Ocazion
+npm i
+npm start
 ```
 
 ## Contact
