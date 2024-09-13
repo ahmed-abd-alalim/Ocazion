@@ -27,12 +27,6 @@ Before you begin, ensure you have met the following requirements:
 
 To install **Ocazion**, follow these steps:
 
-Linux and macOS:
-
-```bash
-sudo git clone https://github.com/AhmedAbdAlalim-3A/Ocazion.git
-```
-
 Windows:
 
 ```bash
