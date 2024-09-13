@@ -9,7 +9,7 @@ Ocazion is a fully responsive ecommerce website template, responsive for all dev
 
 ## Demo
 
-![Ocazion Desktop Demo](./website-demo-image/ocazion.png "Desktop Demo")
+![Ocazion Desktop Demo](./website-demo-image/ocazion.webp "Desktop Demo")
 
 ## programming language and tools
 
