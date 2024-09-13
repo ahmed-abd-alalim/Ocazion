@@ -1,0 +1,15 @@
+/*============= GENERAL =============*/
+body {
+    user-select: none;
+}
+
+#Edit-section {
+    margin: 5rem 0rem 3rem 0rem;
+}
+
+@media (max-width: 480px) {
+
+    #Edit-section {
+        margin: 5rem 0rem 3rem 0rem;
+    }
+}

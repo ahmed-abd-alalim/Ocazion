@@ -1,0 +1,74 @@
+#contact .contactInfo,
+#contact .contactBox {
+    border-radius: var(--_5px);
+    box-shadow: var(--secound_S);
+}
+
+#contact .contactInfo .iconStyle {
+    width: 32px;
+    height: 32px;
+    background: var(--mix_red);
+    border-radius: 50px;
+}
+
+#contact .contactInfo .iconStyle i {
+    color: var(--mix_white);
+}
+
+#contact .contactInfo h6 {
+    font-weight: 500;
+    font-size: .9rem;
+}
+
+#contact .contactInfo span {
+    font-size: .9rem;
+    opacity: .8;
+    font-weight: 500;
+}
+
+
+#contact .contactBox input,
+#contact .contactBox textarea {
+    background: var(--mix_white);
+    border: none;
+    outline: none;
+    border-radius: var(--_4px);
+    width: 100%;
+}
+
+#contact .contactBox textarea {
+    height: 165px;
+    resize: none;
+}
+
+#contact .contactBox input::placeholder,
+#contact .contactBox textarea::placeholder {
+    font-size: .8rem;
+    opacity: .8;
+    font-weight: 500;
+}
+
+#contact .contactBox input:hover,
+#contact .contactBox input:focus {
+    border: none;
+    outline: none;
+}
+
+#contact .contactBox a {
+    text-decoration: none;
+    background: var(--mix_red);
+    color: var(--mix_white);
+    border-radius: var(--_4px);
+    font-weight: 500;
+    font-size: .9rem;
+}
+
+#contact #Returner {
+    font-weight: 600;
+}
+
+#contact #Returner a {
+    text-decoration: none;
+    color: var(--black);
+    opacity: .5;
+}

@@ -1,0 +1,108 @@
+#cart table thead,
+#cart table tbody tr {
+    box-shadow: var(--secound_S);
+    border-radius: var(--_5px);
+}
+
+#cart table thead th {
+    font-size: .9rem;
+    font-weight: 600;
+}
+
+#cart table tbody tr td span {
+    font-size: .7rem;
+    font-weight: 500;
+}
+
+#cart table tbody td i {
+    cursor: pointer;
+    color: var(--mix_red);
+}
+
+#cart table .spinner input {
+    width: 40px;
+    text-align: center;
+    background: var(--mix_white);
+    border: var(--s_border);
+    border-radius: var(--_5px);
+}
+
+#cart table .spinner input:hover,
+#cart table .spinner input:focus {
+    outline: none;
+}
+
+#cart .btn_cus a {
+    text-decoration: none;
+    color: var(--black);
+    background: var(--white);
+    border-radius: var(--_4px);
+    font-weight: 500;
+    font-size: .7rem;
+    border: 1px solid rgba(65, 65, 65, 0.485);
+}
+
+#cart .btn_cus a:hover {
+    color: var(--mix_white);
+    background: var(--mix_red);
+    border: 1px solid var(--mix_red);
+}
+
+
+#cart .coupon input {
+    border: var(--f_border);
+    border-radius: var(--_4px);
+}
+
+#cart .coupon input:hover,
+#cart .coupon input:focus {
+    outline: none;
+}
+
+#cart .coupon input::placeholder {
+    border-radius: var(--_4px);
+    opacity: .7;
+    font-weight: 500;
+    font-size: .8rem;
+}
+
+
+
+#cart .coupon button:focus,
+#cart .coupon button:hover {
+    color: var(--mix_red);
+    background: var(--white);
+}
+
+#cart .coupon button {
+    font-size: .8rem;
+    font-weight: 500;
+    color: var(--mix_white);
+    background: var(--mix_red);
+    border-radius: var(--_4px);
+    border: 2px solid var(--mix_red);
+}
+
+
+
+#cart .cartBox {
+    border: var(--s_border);
+    border-radius: var(--_5px);
+    ;
+}
+
+#cart .cartBox h5 {
+    font-weight: 700;
+}
+
+#cart .cartBox .cartBoxDeeb {
+    border-bottom: var(--s_border);
+}
+
+#cart .cartBox span {
+    font-weight: 500;
+}
+
+#cart .cartBox .cusSpan {
+    color: var(--mix_red);
+}

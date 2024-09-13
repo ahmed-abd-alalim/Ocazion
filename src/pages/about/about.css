@@ -1,0 +1,109 @@
+#about .ourStory,
+#about .results,
+#about .employees {
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+}
+
+
+/* ------------ourStory---------- */
+
+#about .ourStory #Returner {
+    font-weight: 600;
+}
+
+#about .ourStory #Returner a {
+    text-decoration: none;
+    color: var(--black);
+    opacity: .5;
+}
+
+#about .ourStory p {
+    max-width: 30rem;
+    font-weight: 500;
+    font-size: .9rem;
+}
+
+#about .ourStory img {
+    border-radius: var(--_5px);
+}
+
+
+/* ------------results---------- */
+#about .results .resultBox {
+    width: 90%;
+    border: var(--s_border);
+    border-radius: var(--_5px);
+}
+
+#about .results .resultBox .resultBoxIcon {
+    width: 58px;
+    height: 58px;
+    border-radius: 50px;
+    background: var(--mix2_white);
+}
+
+#about .results .resultBox .resultBoxIcon .resultBoxIconDeeb {
+    width: 43px;
+    height: 43px;
+    border-radius: 50px;
+    background: var(--black);
+}
+
+#about .results .resultBox .resultBoxIcon .resultBoxIconDeeb i {
+    font-size: 1.5rem;
+    color: var(--mix_white);
+}
+
+#about .results .resultBox h3 {
+    font-weight: 700;
+}
+
+#about .results .resultBox span {
+    font-weight: 500;
+    font-size: .9rem;
+}
+
+#about .results .resultBox:hover {
+    background: var(--mix_red);
+    color: var(--mix_white);
+
+}
+
+#about .results .resultBox:hover .resultBoxIcon {
+    background: rgba(215, 215, 215, 0.511);
+}
+
+#about .results .resultBox:hover .resultBoxIcon .resultBoxIconDeeb {
+    background: var(--mix_white);
+}
+
+#about .results .resultBox:hover .resultBoxIcon .resultBoxIconDeeb i {
+    color: var(--black);
+}
+
+
+/* ------------employees---------- */
+
+#about .employees .card {
+    border: none;
+}
+
+#about .employees .card .card-img-top {
+    background: var(--mix_white);
+    border-radius: var(--_5px);
+
+}
+
+#about .employees .card .card-body .card-text {
+    font-size: .9rem;
+    font-weight: 500;
+}
+
+#about .employees .card .card-body .card-text a {
+    color: var(--black);
+}
+
+#about .employees .card .card-body .card-text a:hover {
+    color: var(--mix_red);
+}

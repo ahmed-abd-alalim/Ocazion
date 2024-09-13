@@ -1,0 +1,107 @@
+#userAcount .userAcountDeep {
+    background: var(--white);
+    border-radius: var(--_5px);
+    position: relative;
+    box-shadow: var(--secound_S);
+}
+
+#userAcount .userImg {
+    width: 85px;
+    height: 85px;
+    border-radius: 50px;
+    background-color: var(--mix_white);
+    overflow: hidden;
+    position: absolute;
+    margin-bottom: 40px;
+}
+
+#userAcount .userImg .changImge {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.358);
+}
+
+#userAcount .userImg .changImge:hover,
+#userAcount .userImg:hover .changImge {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#userAcount .userImg .changImge ion-icon {
+    font-size: 1.2rem;
+    color: var(--mix_white);
+}
+
+#userAcount .userImg .changImge ion-icon:hover {
+    color: var(--mix_red);
+}
+
+#userAcount .userAcountDeep h4 {
+    color: var(--mix_red);
+}
+
+
+#userAcount .userAcountDeep span {
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+#userAcount .prfileInbut input {
+    background: var(--mix_white);
+    border-radius: var(--_4px);
+    border: none;
+    width: 270px;
+}
+
+
+#userAcount .prfileInbutPasswor span {
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+#userAcount .prfileInbutPasswor input {
+    background: var(--mix_white);
+    border-radius: var(--_4px);
+    border: none;
+    width: 100%;
+}
+
+#userAcount .prfileInbut input::placeholder,
+#userAcount .prfileInbutPasswor input::placeholder {
+    opacity: .5;
+    font-weight: 500;
+    font-size: .9rem;
+}
+
+#userAcount .userAcountDeep a {
+    background: var(--mix_red);
+    color: var(--mix_white);
+    border-radius: var(--_4px);
+    font-weight: 600;
+    text-decoration: none;
+    font-size: .9rem;
+    border: 2px solid var(--mix_red);
+}
+
+
+#userAcount .userAcountDeep .logoutBtn a {
+    background: var(--white);
+    color: var(--mix_red);
+    border: 2px solid var(--mix_red);
+}
+
+#userAcount .userAcountDeep .logoutBtn a:hover {
+    background: var(--mix_red);
+    color: var(--mix_white);
+}
+
+#userAcount .prfileInbutPasswor input:hover,
+#userAcount .prfileInbutPasswor input:focus,
+#userAcount .prfileInbut input:hover,
+#userAcount .prfileInbut input:focus {
+    outline: none;
+    border: none;
+}

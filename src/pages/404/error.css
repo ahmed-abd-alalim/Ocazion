@@ -1,0 +1,33 @@
+#error h1 {
+    font-size: 3.5rem;
+    font-weight: 800;
+}
+
+#error p {
+    font-size: .8rem;
+    font-weight: 500;
+}
+
+
+#error .homeBtn a {
+    text-decoration: none;
+    background: var(--mix_red);
+    color: var(--white);
+    border-radius: var(--_4px);
+}
+
+#error .homeBtn a:hover {
+    background: var(--white);
+    color: var(--mix_red);
+    border: 2px solid var(--mix_red);
+}
+
+#error #Returner {
+    font-weight: 600;
+}
+
+#error #Returner a {
+    text-decoration: none;
+    color: var(--black);
+    opacity: .5;
+}

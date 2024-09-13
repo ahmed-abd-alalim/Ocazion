@@ -1,0 +1,68 @@
+#presentation {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.39);
+    z-index: 20;
+    transition: opacity 0.5s ease;
+}
+
+
+.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.visible {
+    opacity: 1;
+}
+
+
+#closeButton {
+    position: fixed;
+    cursor: pointer;
+    z-index: 30;
+}
+
+#closeButton ion-icon {
+    font-size: 1.2rem;
+    color: var(--mix_red);
+}
+
+#presentation .presentationBox {
+    height: 105vh;
+}
+
+#presentation .presentationBox .presentationBoxDeep {
+    background: var(--mix_white);
+    border-radius: var(--_5px);
+    position: relative;
+}
+
+#presentation .presentationBox .presentationBoxDeep .presentationBoxDeepImg {
+    overflow: hidden;
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    z-index: 22;
+    border-radius: 50px;
+    margin-bottom: 35px;
+    border: 5px solid var(--mix_white);
+}
+
+#presentationDemo {
+    width: 17rem
+}
+
+#presentationDemo .item {
+    height: auto
+}
+
+#presentationDemo .item h3,
+#presentationDemo .item h4 {
+    text-transform: capitalize;
+}
+
+#presentationDemo .item span {
+    color: var(--mix_red);
+}

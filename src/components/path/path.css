@@ -1,0 +1,9 @@
+#Returner {
+    font-weight: 600;
+}
+
+#Returner a {
+    text-decoration: none;
+    color: var(--black);
+    opacity: .5;
+}

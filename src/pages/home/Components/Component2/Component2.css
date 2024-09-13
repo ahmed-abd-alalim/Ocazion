@@ -1,0 +1,85 @@
+/*=============  Flash Salies =============*/
+
+.DateBox .list-unstyled h4 {
+    text-align: center;
+}
+
+.DateBox .list-unstyled li>span {
+    font-size: 1rem;
+    color: var(--mix_red);
+}
+
+.DateBox .list-unstyled span {
+    font-size: .6rem;
+    font-weight: 700;
+}
+
+#flash-owl-demo .item .card-body>p {
+    font-weight: 500;
+}
+
+#flash-owl-demo .item .card-text ion-icon {
+    font-size: .8rem;
+    color: rgb(255, 183, 0);
+}
+
+#flash-owl-demo .item .card-text>span {
+    font-size: .75rem;
+    margin-top: 2px;
+    margin-left: 1px;
+    opacity: .6;
+}
+
+#flash-owl-demo .item .card {
+    border: none;
+}
+
+#flash-owl-demo .item .card .card-img-top {
+    background: var(--mix_white);
+    border-radius: 3px;
+    position: relative;
+    overflow: hidden;
+}
+
+#flash-owl-demo .item .card .card-img-top img {
+    transition: .5s ease;
+}
+
+#flash-owl-demo .item .card .card-img-top .add,
+#flash-owl-demo .item .card .card-img-top .discount,
+#flash-owl-demo .item .card .card-img-top .H_I_icons {
+    position: absolute;
+    z-index: 2;
+}
+
+
+#flash-owl-demo .item .card .card-img-top .add {
+    background-color: var(--black);
+    bottom: -50px;
+    width: 100%;
+    transition: all, 0.5s;
+}
+
+#flash-owl-demo .item .card .card-img-top .add span {
+    font-size: .9rem;
+    font-weight: 600;
+    color: var(--white);
+}
+
+#flash-owl-demo .item .card .card-img-top .add span a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+#flash-owl-demo .item .card .card-img-top .discount {
+    top: 3%;
+    left: 3%;
+}
+
+#flash-owl-demo .item .card .card-img-top .discount span {
+    font-size: .8rem;
+    color: var(--white);
+    background: var(--mix_red);
+    padding: .2rem .5rem;
+    border-radius: var(--_4px)
+}

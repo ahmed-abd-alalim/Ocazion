@@ -1,0 +1,31 @@
+/* ROOT */
+:root {
+
+  /* colors */
+  --black: #000000;
+  --mix_black: #0d0d0d;
+  --mix_red: #dc4345;
+  --green: #00fe67;
+  --mix_white: #e7e7e7;
+  --mix2_white: #d9d9d9;
+  --white: white;
+
+  /* border raduis*/
+  --_5px: 5px;
+  --_4px: 4px;
+  --_2px: 2px;
+
+  /* border */
+  --f_border: 1px solid rgba(0, 0, 0, 0.61);
+  --s_border: 1px solid rgba(0, 0, 0, 0.173);
+
+  /* SHADOW */
+  --frist_S: 0px 3px 12px -5px rgba(0, 0, 0, 0.862);
+  --secound_S: 0px 0px 10px var(--mix2_white);
+}
+
+/* fonts */
+@font-face {
+  font-family: BRLNSB;
+  src: url(../public/assets/fonts/BRLNSDB.TTF);
+}

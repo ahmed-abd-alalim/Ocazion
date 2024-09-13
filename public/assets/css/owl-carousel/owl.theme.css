@@ -1,0 +1,50 @@
+/*
+* 	Owl Carousel Owl Demo Theme 
+*	v1.3.3
+*/
+
+.owl-theme .owl-controls {
+	margin-top: 10px;
+	text-align: center;
+}
+
+/* Styling Next and Prev buttons */
+
+.owl-theme .owl-controls .owl-buttons div {
+	color: #000000;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 2;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: flex-end;
+	margin-top: -3rem;
+}
+
+
+.owl-theme .owl-controls .owl-buttons div ion-icon {
+	padding: .4rem;
+	background: #e7e7e7;
+	font-size: 1rem;
+	border-radius: 50px;
+}
+
+.owl-theme .owl-controls .owl-buttons div ion-icon:hover {
+	background: var(--mix_red);
+	color: var(--mix_white);
+}
+
+
+/* Clickable class fix problem with hover on touch devices */
+.owl-theme .owl-controls.clickable .owl-buttons div:hover {
+	filter: Alpha(Opacity=100);
+	opacity: 1;
+	text-decoration: none;
+}
+
+
+/* Styling Pagination*/
+.owl-theme .owl-controls .owl-page {
+	display: none;
+}

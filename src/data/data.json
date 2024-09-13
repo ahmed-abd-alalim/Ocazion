@@ -1,0 +1,399 @@
+{
+  "Access": "",
+  "UserData": {
+    "fristName": "",
+    "lastName": "",
+    "email": "",
+    "address": "",
+    "password": ""
+  },
+  "Cart": [],
+  "Contact": {
+    "name": "",
+    "email": "",
+    "phone": "",
+    "message": ""
+  },
+  "Home": {
+    "Component1": [
+      {
+        "sliderId": 1,
+        "brandIcon": "./assets/images/hero/Apple_logo.png",
+        "productName": "iphon 14 Series",
+        "productTitle": "Up to 10% off Voucher",
+        "productLink": "#",
+        "productImage": "./assets/images/hero/Apple_hero_.png",
+        "activeSlider": "active"
+      },
+      {
+        "sliderId": 2,
+        "brandIcon": "./assets/images/hero/Apple_logo.png",
+        "productName": "iphon 14 Series",
+        "productTitle": "Up to 10% off Voucher",
+        "productLink": "#",
+        "productImage": "./assets/images/hero/Apple_hero_.png",
+        "activeSlider": ""
+      },
+      {
+        "sliderId": 3,
+        "brandIcon": "./assets/images/hero/Apple_logo.png",
+        "productName": "iphon 14 Series",
+        "productTitle": "Up to 10% off Voucher",
+        "productLink": "#",
+        "productImage": "./assets/images/hero/Apple_hero_.png",
+        "activeSlider": ""
+      }
+    ],
+
+    "Component2": [
+      {
+        "id": 1,
+        "img": "assets/images/flashSalies/gameController.png",
+        "title": "HAVIT HV-G92 Gamepad",
+        "discount": "-20%",
+        "price": 120,
+        "oldPrice": "$160",
+        "reviewStar": 5,
+        "numperReview": "88",
+        "cardActive": ""
+      },
+      {
+        "id": 2,
+        "img": "assets/images/flashSalies/kebord.png",
+        "title": "AK-900 Wired Keyboard",
+        "discount": "-35%",
+        "price": 960,
+        "oldPrice": "$1160",
+        "reviewStar": 4,
+        "numperReview": "75",
+        "cardActive": ""
+      },
+      {
+        "id": 3,
+        "img": "assets/images/flashSalies/lps.png",
+        "title": "IPS LCD Gaming Monitor",
+        "discount": "-30%",
+        "price": 370,
+        "oldPrice": "$400",
+        "reviewStar": 5,
+        "numperReview": "99",
+        "cardActive": ""
+      },
+      {
+        "id": 4,
+        "img": "assets/images/flashSalies/chair.png",
+        "title": "S-Series Comfort Chair",
+        "discount": "-25%",
+        "price": 375,
+        "oldPrice": "$400",
+        "reviewStar": 4.5,
+        "numperReview": "99",
+        "cardActive": ""
+      },
+      {
+        "id": 5,
+        "img": "assets/images/flashSalies/bookSelf.png",
+        "title": "Small BookSelf",
+        "discount": "10%",
+        "price": 360,
+        "oldPrice": "$340",
+        "reviewStar": 2.5,
+        "numperReview": "65",
+        "cardActive": ""
+      },
+      {
+        "id": 6,
+        "img": "assets/images/flashSalies/gucci.png",
+        "title": "Gucci dufflr bag",
+        "discount": "50%",
+        "price": 960,
+        "oldPrice": "$480",
+        "reviewStar": 3.5,
+        "numperReview": "72",
+        "cardActive": ""
+      }
+    ],
+
+    "Component3": [
+      {
+        "categoryId": 1,
+        "categoryIcon": "phone-portrait-outline",
+        "categoryName": "Phones",
+        "categoryLink": "#"
+      },
+      {
+        "categoryId": 2,
+        "categoryIcon": "desktop-outline",
+        "categoryName": "Computers",
+        "categoryLink": "#"
+      },
+      {
+        "categoryId": 3,
+        "categoryIcon": "watch-outline",
+        "categoryName": "SmartWatch",
+        "categoryLink": "#"
+      },
+      {
+        "categoryId": 4,
+        "categoryIcon": "camera-outline",
+        "categoryName": "Camera",
+        "categoryLink": "#"
+      },
+      {
+        "categoryId": 5,
+        "categoryIcon": "headset-outline",
+        "categoryName": "Phones",
+        "categoryLink": "#"
+      },
+      {
+        "categoryId": 6,
+        "categoryIcon": "game-controller-outline",
+        "categoryName": "Gaming",
+        "categoryLink": "#"
+      },
+      {
+        "categoryId": 7,
+        "categoryIcon": "shirt-outline",
+        "categoryName": "Clothes",
+        "categoryLink": "#"
+      }
+    ],
+
+    "Component4": [
+      {
+        "id": 1,
+        "img": "assets/images/bestSelling/jacket.png",
+        "title": "HAVIT HV-G92 Gamepad",
+        "price": 120,
+        "oldPrice": "$160",
+        "reviewStar": 2.5,
+        "numperReview": "65",
+        "cardActive": ""
+      },
+      {
+        "id": 2,
+        "img": "assets/images/bestSelling/gucci.png",
+        "title": "AK-900 Wired Keyboard",
+        "price": 960,
+        "oldPrice": "$1160",
+        "reviewStar": 3.5,
+        "numperReview": "75",
+        "cardActive": ""
+      },
+      {
+        "id": 3,
+        "img": "assets/images/bestSelling/speaker.png",
+        "title": "IPS LCD Gaming Monitor",
+        "price": 370,
+        "oldPrice": "$400",
+        "reviewStar": 3.5,
+        "numperReview": "99",
+        "cardActive": ""
+      },
+      {
+        "id": 4,
+        "img": "assets/images/bestSelling/bookSelf.png",
+        "title": "S-Series Comfort Chair",
+        "price": 375,
+        "oldPrice": "$400",
+        "reviewStar": 2.5,
+        "numperReview": "99",
+        "cardActive": ""
+      }
+    ],
+
+    "Component5": [
+      {
+        "type": "Categories",
+        "productHeder": "Enhance Your Music Expperience",
+        "productLink": "#",
+        "productImg": "assets/images/categories/JBL_BOOMBOX.png"
+      }
+    ],
+    "Component6": [
+      {
+        "id": 1,
+        "img": "assets/images/ourProducts/cesar.png",
+        "title": "breed dry dog food",
+        "price": 100,
+        "reviewStar": 3,
+        "numperReview": "35",
+        "cardActive": ""
+      },
+      {
+        "id": 2,
+        "img": "assets/images/ourProducts/camera.png",
+        "title": "CANON EOS DSLR camera",
+        "price": 360,
+        "reviewStar": 4,
+        "numperReview": "95",
+        "cardActive": ""
+      },
+      {
+        "id": 3,
+        "img": "assets/images/ourProducts/laptop.png",
+        "title": "ASUS FHD gaming laptop",
+        "price": 700,
+        "reviewStar": 5,
+        "numperReview": "325",
+        "cardActive": ""
+      },
+      {
+        "id": 4,
+        "img": "assets/images/ourProducts/makeup.png",
+        "title": "curology product set",
+        "price": 500,
+        "reviewStar": 4,
+        "numperReview": "145",
+        "cardActive": ""
+      },
+      {
+        "id": 5,
+        "img": "assets/images/ourProducts/car.png",
+        "title": "kids electric car",
+        "price": 960,
+        "reviewStar": 5,
+        "numperReview": "65",
+        "cardActive": ""
+      },
+      {
+        "id": 6,
+        "img": "assets/images/ourProducts/shoes.png",
+        "title": "jr.zoom soccer cleats",
+        "price": 1160,
+        "reviewStar": 5,
+        "numperReview": "35",
+        "cardActive": ""
+      },
+      {
+        "id": 7,
+        "img": "assets/images/ourProducts/GC.png",
+        "title": "GPII shooter USB gamepad",
+        "price": 660,
+        "reviewStar": 4.5,
+        "numperReview": "55",
+        "cardActive": ""
+      },
+      {
+        "id": 8,
+        "img": "assets/images/ourProducts/jacket.png",
+        "title": "quilted satin jacket",
+        "price": 660,
+        "reviewStar": 4.5,
+        "numperReview": "55",
+        "cardActive": ""
+      }
+    ],
+
+    "Component7": [
+      {
+        "productImage": "assets/images/arrival/ps5-slim.png",
+        "productHeder": "Play Station 5",
+        "productTitle": "Black and White version of the PS5 coming out on sale.",
+        "productLink": "#"
+      },
+      {
+        "productImage": "assets/images/arrival/attractive-woman.png",
+        "productHeder": "women's collections",
+        "productTitle": "featured waman collections that give you another vibe.",
+        "productLink": "#"
+      },
+      {
+        "productImage": "assets/images/arrival/clipart-transparent.png",
+        "productHeder": "speakers",
+        "productTitle": "amazon wireless speakers",
+        "productLink": "#"
+      },
+      {
+        "productImage": "assets/images/arrival/Perfume.png",
+        "productHeder": "perfume",
+        "productTitle": "GUCCI INTENSE OUD EDP",
+        "productLink": "#"
+      }
+    ],
+
+    "Component8": [
+      {
+        "aboutServicesId": 1,
+        "aboutServicesIcon": "bi bi-truck",
+        "aboutServicesHeder": "FREE AND FAST DELIVERY",
+        "aboutServicesTitle": "Free delivery for all orders over $140"
+      },
+      {
+        "aboutServicesId": 2,
+        "aboutServicesIcon": "bi bi-headset",
+        "aboutServicesHeder": "24/7 CUSTOMER SERVICE",
+        "aboutServicesTitle": "Friendly 24/7 customer support"
+      },
+      {
+        "aboutServicesId": 3,
+        "aboutServicesIcon": "bi bi-shield-check",
+        "aboutServicesHeder": "MONEY BACK GUARANTEE",
+        "aboutServicesTitle": "We return money within 30 days"
+      }
+    ]
+  },
+  "About": {
+    "result": [
+      {
+        "resultId": 1,
+        "resultIcon": "bi bi-shop",
+        "resultNumper": "10.5k",
+        "resultTitle": "Sallers active our site"
+      },
+      {
+        "resultId": 2,
+        "resultIcon": "bi bi-coin",
+        "resultNumper": "33k",
+        "resultTitle": "Mopnthly Product Sale"
+      },
+      {
+        "resultId": 3,
+        "resultIcon": "bi bi-handbag",
+        "resultNumper": "45.5k",
+        "resultTitle": "Customer active in our site"
+      },
+      {
+        "resultId": 4,
+        "resultIcon": "bi bi-currency-exchange",
+        "resultNumper": "25k",
+        "resultTitle": "Anual gross sale in our site"
+      }
+    ],
+    "employees": [
+      {
+        "employeId": 1,
+        "employeImg": "assets/images/about/teemMemper1.png",
+        "employeName": "Tom Cruise",
+        "employeJob": "Founder & Chairman",
+        "employesocialMediaLink": {
+          "twitter": "#",
+          "instagram": "#",
+          "linkedIn": "#"
+        }
+      },
+      {
+        "employeId": 2,
+        "employeImg": "assets/images/about/teemMemper3.png",
+        "employeName": "Emma Watson",
+        "employeJob": "Managing Director",
+        "employesocialMediaLink": {
+          "twitter": "#",
+          "instagram": "#",
+          "linkedIn": "#"
+        }
+      },
+      {
+        "employeId": 3,
+        "employeImg": "assets/images/about/teemMemper2.png",
+        "employeName": "Will Smith",
+        "employeJob": "Product Designer",
+        "employesocialMediaLink": {
+          "twitter": "#",
+          "instagram": "#",
+          "linkedIn": "#"
+        }
+      }
+    ]
+  }
+}

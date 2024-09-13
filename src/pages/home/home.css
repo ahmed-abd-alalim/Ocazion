@@ -1,0 +1,114 @@
+/*============= Home =============*/
+.viewAll a {
+    text-decoration: none;
+    color: var(--mix_white);
+    background: var(--mix_red);
+    font-size: .9rem;
+    text-transform: capitalize;
+    border-radius: var(--_4px);
+}
+
+.viewAll a:hover {
+    border: 2px solid var(--mix_red);
+    color: var(--mix_red);
+    background: var(--white);
+}
+
+
+.pransh_name>span {
+    width: 13px;
+    height: 25px;
+    border-radius: var(--_2px);
+    border: 1px solid var(--mix_red);
+    background: var(--mix_red);
+}
+
+.pransh_name>h6 {
+    color: var(--mix_red);
+    font-size: .9rem;
+}
+
+
+#flash-owl-demo .item,
+#categories-owl-demo .item {
+    background: none;
+    box-shadow: none;
+}
+
+hr {
+    width: 83%;
+}
+
+/* -----------H_I_icons-------------- */
+
+
+#flash-owl-demo .item .card .card-img-top .H_I_icons,
+#selling-component .card .card-img-top .H_I_icons,
+#Component6 .card .card-img-top .H_I_icons {
+    top: 8%;
+    right: 4%;
+}
+
+#flash-owl-demo .item .card .card-img-top .H_I_icons li,
+#selling-component .card .card-img-top .H_I_icons li,
+#Component6 .card .card-img-top .H_I_icons li {
+    width: 28px;
+    height: 28px;
+    border-radius: 50px;
+    background: var(--white);
+    cursor: pointer;
+}
+
+#flash-owl-demo .item .card .card-img-top .H_I_icons li i,
+#selling-component .card .card-img-top .H_I_icons li i,
+#Component6 .card .card-img-top .H_I_icons li i {
+    font-size: .9rem;
+}
+
+
+#flash-owl-demo .item .card .card-img-top .H_I_icons li .bi-bag-check-fill,
+#selling-component .card .card-img-top .H_I_icons li .bi-bag-check-fill,
+#Component6 .card .card-img-top .H_I_icons li .bi-bag-check-fill,
+#flash-owl-demo .item .card .card-img-top .H_I_icons li i:hover,
+#selling-component .card .card-img-top .H_I_icons li i:hover,
+#Component6 .card .card-img-top .H_I_icons li i:hover {
+    color: var(--mix_red);
+}
+
+
+#flash-owl-demo .item .card .card-img-top img:hover,
+#selling-component .card .card-img-top img:hover,
+#Component6 .card .card-img-top img:hover {
+    transform: scale(1.1);
+}
+
+#flash-owl-demo .item .card .card-img-top:hover .add,
+#selling-component .card .card-img-top:hover .add,
+#Component6 .card .card-img-top:hover .add {
+    bottom: 1px;
+}
+
+
+#flash-owl-demo .item .card .card-title,
+#selling-component .card .card-title,
+#Component6 .card .card-title {
+    font-size: .9rem;
+    font-weight: 600;
+}
+
+#flash-owl-demo .item .card .card-body p,
+#selling-component .card .card-body p,
+#Component6 .card .card-body p {
+    color: var(--mix_red);
+    font-size: .9rem;
+    font-weight: 500;
+
+}
+
+#flash-owl-demo .item .card .card-body p span,
+#selling-component .card .card-body p span,
+#Component6 .card .card-body p span {
+    color: var(--black);
+    font-size: .7rem;
+    opacity: .5;
+}

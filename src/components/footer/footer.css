@@ -1,0 +1,79 @@
+footer {
+    background: var(--black);
+    color: var(--white);
+}
+
+footer form {
+    border: 2px solid var(--white);
+    border-radius: var(--_4px);
+}
+
+footer form input {
+    border: none;
+    background: none;
+    width: 10.1rem;
+    color: var(--white);
+}
+
+footer form input:hover,
+footer form input:focus {
+    outline: none;
+    border: none;
+}
+
+footer form input::placeholder {
+    font-size: .9rem;
+}
+
+footer form button {
+    background: none;
+    border: none;
+}
+
+footer form ion-icon {
+    color: var(--white);
+}
+
+
+footer li {
+    max-width: 10rem;
+}
+
+footer li a {
+    color: var(--white);
+    opacity: .8;
+    text-decoration: none;
+    font-size: .9REM;
+}
+
+footer li a:hover {
+    color: var(--mix_red);
+}
+
+footer span {
+    font-size: .7rem;
+    opacity: .8;
+}
+
+footer ion-icon {
+    font-size: 1.2rem;
+}
+
+footer h4 {
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+    font-family: BRLNSB;
+}
+
+footer .socket {
+    border-top: 1px solid rgba(255, 255, 255, 0.089);
+}
+
+footer .socket p {
+    font-size: .8rem;
+    opacity: .8;
+}
+
+footer .socket a img {
+    width: 20px;
+}

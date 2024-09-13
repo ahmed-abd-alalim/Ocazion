@@ -1,0 +1,247 @@
+/*============= Secound NAVIGATION =============*/
+#navbar {
+    background: var(--white) !important;
+    border-bottom: var(--s_border);
+}
+
+.navbar-brand,
+.offcanvas-title {
+    font-size: 1.5rem;
+    font-family: BRLNSB;
+}
+
+.H_B_f i {
+    font-size: 1.1rem;
+}
+
+.H_B_f a {
+    color: var(--black);
+}
+
+.H_B_f .cartCus {
+    position: relative;
+    overflow: hidden;
+}
+
+.H_B_f .cartCusDeep {
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    width: 13px;
+    height: 13px;
+    border-radius: 50px;
+    background: var(--mix_red);
+}
+
+.H_B_f .cartCusDeep span {
+    font-size: .6rem;
+    font-weight: 500;
+    color: var(--mix_white);
+}
+
+.H_B_f .acountIng {
+    width: 33px;
+    height: 33px;
+    background: var(--mix_white);
+    border-radius: 50px;
+    border: 2px solid var(--mix2_white);
+}
+
+.H_B_f .acountIngparont.active .acountIng,
+.H_B_f .acountIngparont:hover .acountIng {
+    border: 2px dashed var(--mix_red);
+}
+
+
+.navbar-toggler {
+    border: 0;
+}
+
+.navbar-toggler i {
+    font-size: 2rem;
+}
+
+.navbar-nav a {
+    font-weight: 500;
+    font-size: .9rem;
+}
+
+.navbar .offcanvas-header ion-icon {
+    color: var(--mix_red);
+    font-size: 1.8rem;
+}
+
+.navbar .nav-link.active,
+.navbar .nav-link:hover {
+    color: var(--mix_red);
+}
+
+#navbar form {
+    background: var(--mix_white);
+    border-radius: var(--_5px);
+}
+
+.offcanvas .nav-item .dropdown button {
+    background: none;
+    border-width: 0;
+    color: var(--black) !important;
+    font-weight: 500;
+    font-size: .9rem !important;
+    opacity: .7;
+}
+
+.offcanvas .nav-item .dropdown-menu {
+    background: var(--mix_white);
+}
+
+.offcanvas .nav-item .dropdown-menu a {
+    color: var(--black) !important;
+}
+
+.navbar form input {
+    background: 0;
+    border: none;
+    font-size: .7rem;
+    width: 164px;
+    height: 15px;
+}
+
+.navbar form input::placeholder {
+    opacity: .9;
+}
+
+.navbar form button {
+    background: 0;
+    border: none;
+    font-size: 1rem;
+}
+
+.H_B_s i {
+    font-size: 1.2rem;
+}
+
+.H_B_s a {
+    color: var(--black);
+}
+
+.H_B_s .cartCus {
+    position: relative;
+    overflow: hidden;
+}
+
+.H_B_s .cartCusDeep {
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    width: 13px;
+    height: 13px;
+    border-radius: 50px;
+    background: var(--mix_red);
+}
+
+.H_B_s .cartCusDeep span {
+    font-size: .6rem;
+    font-weight: 500;
+    color: var(--mix_white);
+}
+
+.H_B_s .acountIng {
+    width: 40px;
+    height: 40px;
+    background: var(--mix_white);
+    border-radius: 50px;
+    border: 2px solid var(--mix2_white);
+}
+
+.H_B_s .acountIngparont.active .acountIng,
+.H_B_s .acountIngparont:hover .acountIng {
+    border: 2px dashed var(--mix_red);
+}
+
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar form input,
+.navbar form input:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+    background: none;
+}
+
+#search_input_box {
+    position: absolute;
+    width: 100%;
+    z-index: 5;
+    background-color: var(--mix_white);
+}
+
+#search_input_box input,
+#search_input_box button {
+    background: none;
+    border: none;
+    outline: none;
+}
+
+#search_input_box input::placeholder {
+    font-size: .9rem;
+}
+
+#search_input_box input:focus,
+#search_input_box input:hover,
+#search_input_box button:hover {
+    border: none;
+    outline: none;
+}
+
+#search_input_box button ion-icon {
+    font-size: 1.4rem;
+    color: var(--black);
+}
+
+.nav-item a,
+.nav-item span {
+    text-decoration: none;
+    color: var(--black);
+}
+
+/*============= MEDIA QUERIES =============*/
+@media (max-width: 480px) {
+
+    /* f_nav */
+    #f-N p {
+        font-size: .5rem;
+    }
+
+    #f-N a {
+        font-size: .6rem;
+    }
+
+    /* s_nav */
+    .navbar .nav-link.active,
+    .navbar .nav-link:hover {
+        font-weight: 600;
+        border-bottom: 0;
+    }
+
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+    /* s_nav */
+    .navbar .nav-link.active,
+    .navbar .nav-link:hover {
+        font-weight: 600;
+        border-bottom: 0;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+
+    /* s_nav */
+    .navbar .nav-link.active,
+    .navbar .nav-link:hover {
+        font-weight: 600;
+        border-bottom: 0;
+    }
+}

@@ -1,0 +1,55 @@
+#selling-component .card-body>p {
+    font-weight: 500;
+}
+
+#selling-component .card-text ion-icon {
+    font-size: .8rem;
+    color: rgb(255, 183, 0);
+}
+
+#selling-component .card-text>span {
+    font-size: .75rem;
+    margin-top: 2px;
+    margin-left: 1px;
+    opacity: .6;
+}
+
+#selling-component .card {
+    border: none;
+}
+
+#selling-component .card .card-img-top {
+    background: var(--mix_white);
+    border-radius: 3px;
+    position: relative;
+    overflow: hidden;
+}
+
+#selling-component .card .card-img-top img {
+    transition: .5s ease;
+}
+
+#selling-component .card .card-img-top .add,
+#selling-component .card .card-img-top .H_I_icons {
+    position: absolute;
+    z-index: 2;
+}
+
+
+#selling-component .card .card-img-top .add {
+    background-color: var(--black);
+    bottom: -50px;
+    width: 100%;
+    transition: all, 0.5s;
+}
+
+#selling-component .card .card-img-top .add span {
+    font-size: .9rem;
+    font-weight: 600;
+    color: var(--white);
+}
+
+#selling-component .card .card-img-top .add span a {
+    text-decoration: none;
+    color: var(--white);
+}

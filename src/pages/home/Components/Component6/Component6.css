@@ -1,0 +1,59 @@
+#Component6 .card-body>h5 {
+    text-transform: capitalize;
+}
+
+#Component6 .card-body>p {
+    font-weight: 500;
+}
+
+#Component6 .card-text ion-icon {
+    font-size: .8rem;
+    color: rgb(255, 183, 0);
+}
+
+#Component6 .card-text>span {
+    font-size: .75rem;
+    margin-top: 2px;
+    margin-left: 1px;
+    opacity: .6;
+}
+
+#Component6 .card {
+    border: none;
+}
+
+#Component6 .card .card-img-top {
+    background: var(--mix_white);
+    border-radius: 3px;
+    position: relative;
+    overflow: hidden;
+}
+
+#Component6 .card .card-img-top img {
+    transition: .5s ease;
+}
+
+#Component6 .card .card-img-top .add,
+#Component6 .card .card-img-top .H_I_icons {
+    position: absolute;
+    z-index: 2;
+}
+
+
+#Component6 .card .card-img-top .add {
+    background-color: var(--black);
+    bottom: -50px;
+    width: 100%;
+    transition: all, 0.5s;
+}
+
+#Component6 .card .card-img-top .add span {
+    font-size: .9rem;
+    font-weight: 600;
+    color: var(--white);
+}
+
+#Component6 .card .card-img-top .add span a {
+    text-decoration: none;
+    color: var(--white);
+}

@@ -1,0 +1,77 @@
+.offerBanner {
+    background: var(--black);
+}
+
+.offerBanner span {
+    font-size: .9rem;
+    font-weight: 500;
+    color: var(--green);
+}
+
+.offerBanner h1 {
+    font-size: 3.5rem;
+    color: var(--mix_white);
+}
+
+
+.offerBanner ul li {
+    width: 50px;
+    height: 50px;
+    background: var(--mix_white);
+    border-radius: 50px;
+}
+
+.offerBanner ul li div span {
+    font-size: .6rem;
+    display: block;
+    text-align: center;
+    color: var(--black);
+    font-weight: 700;
+}
+
+.offerBanner a {
+    font-size: .8rem;
+    color: var(--white);
+    background: var(--green);
+    border-radius: var(--_2px);
+}
+
+#whiteShadow {
+    background-image: url(../../../../../public/assets/images/categories/whiteShadow.png);
+    background-repeat: no-repeat;
+    background-size: 102%;
+    background-position: 54% 47%;
+}
+
+#whiteShadow img {
+    transition: 0.5s ease;
+}
+
+#whiteShadow img:hover {
+    transform: scale(1.05);
+}
+
+
+/*============= MEDIA QUERIES =============*/
+
+@media (max-width: 480px) {
+
+    .offerBanner h1 {
+        font-size: 2rem;
+    }
+}
+
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+    .offerBanner h1 {
+        font-size: 2.2rem;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+
+    .offerBanner h1 {
+        font-size: 2.5rem;
+    }
+}

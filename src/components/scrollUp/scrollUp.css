@@ -1,0 +1,20 @@
+.scrollUp {
+    position: fixed;
+    right: 2.5%;
+    bottom: 2.5%;
+    z-index: 5;
+}
+
+.scrollUp .scrollUp_deeb {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    background: var(--mix_white);
+    cursor: pointer;
+}
+
+.scrollUp i {
+    font-size: 1.8rem;
+    color: var(--black);
+    cursor: pointer;
+}

@@ -1,0 +1,57 @@
+.aboutServices .iconService {
+    width: 70px;
+    height: 70px;
+    background: rgb(201, 201, 201);
+    border-radius: 50px;
+}
+
+.aboutServices .iconService .iconService_deeb {
+    width: 52px;
+    height: 52px;
+    background: var(--black);
+    border-radius: 50px;
+}
+
+.aboutServices .iconService i {
+    color: var(--white);
+    font-size: 1.8rem;
+
+}
+
+.aboutServices h6 {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.aboutServices p {
+    font-weight: 500;
+    font-size: .85rem;
+    opacity: .9;
+}
+
+
+
+/*============= MEDIA QUERIES =============*/
+@media (max-width: 480px) {
+    .aboutServices .iconService {
+        width: 60px;
+        height: 60px;
+    }
+
+    .aboutServices .iconService .iconService_deeb {
+        width: 42px;
+        height: 42px;
+    }
+
+    .aboutServices .iconService i {
+        font-size: 1.5rem;
+    }
+
+    .aboutServices h6 {
+        font-size: .8rem;
+    }
+
+    .aboutServices p {
+        font-size: .7rem;
+    }
+}

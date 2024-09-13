@@ -1,0 +1,27 @@
+/*=============  Categories Salies =============*/
+#categories-owl-demo .item {
+    border: var(--s_border);
+    border-radius: var(--_5px);
+    width: 88%;
+}
+
+#categories-owl-demo .item ion-icon {
+    font-size: 2.5rem;
+    color: var(--black);
+}
+
+#categories-owl-demo .item p {
+    font-size: .9rem;
+    color: var(--black);
+    font-weight: 500;
+}
+
+#categories-owl-demo .item:hover,
+#categories-owl-demo .item.active,
+#categories-owl-demo .item:hover ion-icon,
+#categories-owl-demo .item.active ion-icon,
+#categories-owl-demo .item:hover p,
+#categories-owl-demo .item.active p {
+    background: var(--mix_red);
+    color: var(--mix_white);
+}

@@ -1,0 +1,76 @@
+/*============= Hero =============*/
+.l_nave {
+    border-right: var(--s_border);
+}
+
+.lister ul {
+    list-style: none;
+}
+
+.lister li {
+    margin-top: 15px;
+}
+
+.lister a,
+#forms-nav_tw a,
+#forms-nav_on a {
+    color: var(--black);
+    text-decoration: none;
+}
+
+.lister a:hover,
+.lister a.active,
+#forms-nav_tw a:hover,
+#forms-nav_on a:hover,
+#forms-nav_tw a.active,
+#forms-nav_on a.active {
+    color: var(--mix_red);
+}
+
+
+.l_nave a:hover {
+    color: var(--mix_red);
+}
+
+.carousel-indicators {
+    list-style: none;
+}
+
+
+.carousel-indicators li.active {
+    background-color: var(--mix_red) !important;
+    border: 2px solid var(--mix_white);
+}
+
+.ponar {
+    background-color: var(--black);
+    color: var(--mix_white);
+}
+
+#li_ {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50% !important;
+}
+
+.l_carousel h5 {
+    font-size: .9rem;
+}
+
+.l_carousel h1 {
+    font-size: 2.5rem;
+}
+
+.l_carousel a {
+    text-decoration: none;
+}
+
+.l_carousel span {
+    color: var(--mix_white);
+    border-bottom: 1px solid var(--mix_white);
+}
+
+.l_carousel i {
+    font-size: 1.1rem;
+    color: var(--mix_white);
+}

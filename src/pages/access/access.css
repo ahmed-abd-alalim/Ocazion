@@ -1,0 +1,56 @@
+#access h3 {
+    font-weight: 650;
+    font-size: 2rem;
+}
+
+#access p {
+    font-weight: 500;
+}
+
+#access form input {
+    width: 220px;
+    background: none;
+    border: none;
+    border-bottom: var(--s_border);
+    font-size: .9rem;
+    font-weight: 500;
+}
+
+#access form input::placeholder {
+    opacity: .7;
+    font-size: .8rem;
+}
+
+
+
+#CAbutton {
+    background: var(--mix_red);
+    color: var(--mix_white);
+    border-radius: var(--_4px);
+    font-size: .9rem;
+    font-weight: 500;
+    text-decoration: none;
+    border: 2px solid var(--mix_red);
+}
+
+
+#CAbutton:hover {
+    background: var(--white);
+    color: var(--mix_red);
+    border: 2px solid var(--mix_red);
+}
+
+#access form span a {
+    text-decoration: none;
+    color: var(--mix_red);
+    font-weight: 500;
+    font-size: .9rem;
+}
+
+#access form input:hover,
+#access form input:focus {
+    border: none;
+    outline: none;
+    border-bottom: var(--s_border);
+    background: none;
+}
