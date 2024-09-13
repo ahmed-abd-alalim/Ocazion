@@ -13,7 +13,7 @@ Ocazion is a fully responsive ecommerce website template, responsive for all dev
 
 <p>
    <a href="#">
-    <img src="https://skillicons.dev/icons?i=html,css,js,bootstrap,vscode,ps,&perline=7" />
+    <img src="https://skillicons.dev/icons?i=html,css,js,bootstrap,react,vscode,ps,&perline=7" />
    </a>
 </p>
 
