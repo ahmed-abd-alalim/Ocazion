@@ -1,6 +1,6 @@
 <div align="center">
 <h1 align="center">Ocazion - Ocazion ecommerce React website</h1>
-Ocazion is a fully responsive ecommerce website template, responsive for all devices, built using HTML, CSS, JavaScript, Bootstrap 5 and Ract.
+Ocazion is a fully responsive ecommerce website template, responsive for all devices, built using HTML, CSS, JavaScript, Bootstrap 5 and React.
 <br />
 <br />
 <a href="https://ocazion.rf.gd"><strong>➥ Live Demo</strong></a>
