@@ -127,7 +127,7 @@ const Footer = () => {
       <div className="socket text-center py-3">
         <p className="m-0">
           &copy; 2024 Ocazion. All Right Reserved by
-          <a href="https://github.com/AhmedAbdAlalim-3A">
+          <a href="https://ahmedabdalalim-482c3.web.app">
             <img
               src="https://raw.githubusercontent.com/AhmedAbdAlalim-3A/AhmedAbdAlalim-3A/main/assets/3A.png"
               alt="3A"
