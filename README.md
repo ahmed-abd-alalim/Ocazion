@@ -32,7 +32,7 @@ To install **Ocazion**, follow these steps:
 Windows:
 
 ```bash
-git clone https://github.com/AhmedAbdAlalim-3A/Ocazion.git
+git clone https://github.com/ahmed-abd-alalim/Ocazion.git
 cd Ocazion
 npm i
 npm start
