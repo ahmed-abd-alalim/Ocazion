@@ -24,11 +24,11 @@ Ocazion is a fully responsive eCommerce website template designed for modern onl
 
 ## Pages
 
-<p>✅ Home – Stunning landing page showcasing featured products</p>
-<p>✅ About – Learn more about the store and its mission</p>
-<p>✅ Contact – Get in touch via a built-in contact form</p>
-<p>✅ Login & Signup – Secure authentication system</p>
-<p>✅ Cart – Manage shopping items easily</p>
+<p>🏠 Home – Stunning landing page showcasing featured products</p>
+<p>ℹ️ About – Learn more about the store and its mission</p>
+<p>📞 Contact – Get in touch via a built-in contact form</p>
+<p>🔑 Login & Signup – Secure authentication system</p>
+<p>🛒 Cart – Manage shopping items easily</p>
 
 
 ## Features
