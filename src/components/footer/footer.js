@@ -129,7 +129,7 @@ const Footer = () => {
           &copy; 2024 Ocazion. All Right Reserved by
           <a href="https://ahmedabdalalim.pages.dev/">
             <img
-              src="https://raw.githubusercontent.com/AhmedAbdAlalim-3A/AhmedAbdAlalim-3A/main/assets/3A.png"
+              src="https://raw.githubusercontent.com/ahmed-abd-alalim/ahmed-abd-alalim/main/assets/3A.png"
               alt="3A"
             />
           </a>
